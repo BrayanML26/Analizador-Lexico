@@ -30,6 +30,37 @@ Este proyecto implementa un analizador léxico en Java utilizando JFlex. El anal
   - `Tokens.java`: Enumeración que define los tipos de tokens reconocidos por el analizador.
   - `Frm1.java`: Clase que implementa la interfaz gráfica de usuario.
 
+## Tabla de Tokens
+
+A continuación se presenta la lista de tokens reconocidos por el analizador léxico, junto con sus descripciones:
+
+| Token         | Descripción                                                  |
+|---------------|--------------------------------------------------------------|
+| `int`         | Tipo de dato entero.                                        |
+| `string`      | Tipo de dato cadena de caracteres.                          |
+| `double`      | Tipo de dato decimal de doble precisión.                    |
+| `char`        | Tipo de dato carácter.                                      |
+| `boolean`     | Tipo de dato booleano (verdadero o falso).                 |
+| `if`          | Palabra reservada que inicia una estructura condicional.    |
+| `else`        | Palabra reservada que indica la alternativa en una condición.|
+| `for`         | Palabra reservada que inicia un bucle for.                 |
+| `do`          | Palabra reservada que inicia un bucle do-while.            |
+| `while`       | Palabra reservada que inicia un bucle while.               |
+| `switch`      | Palabra reservada que inicia una estructura de selección.   |
+| `(`           | Delimitador de apertura de paréntesis.                      |
+| `)`           | Delimitador de cierre de paréntesis.                        |
+| `{`           | Delimitador de apertura de llave.                            |
+| `}`           | Delimitador de cierre de llave.                              |
+| `;`           | Delimitador que indica el final de una instrucción.         |
+| `=`           | Operador de asignación.                                     |
+| `+`           | Operador de suma.                                          |
+| `-`           | Operador de resta.                                         |
+| `*`           | Operador de multiplicación.                                 |
+| `/`           | Operador de división.                                       |
+| `Identificador` | Nombre definido por el usuario que comienza con una letra o guion bajo y puede contener letras y dígitos. |
+| `Numero`      | Representa un número entero o decimal.                      |
+| `Error`       | Token para cualquier símbolo no reconocido en el código.    |
+
 ## Cómo Ejecutar el Proyecto
 
 1. **Configuración del entorno**:
