@@ -190,7 +190,8 @@ public class Frm1 extends javax.swing.JFrame {
             // Escribir el texto de la entrada del usuario (campo "txtInput") en el archivo
             write.print(txtInput.getText());
             write.close();
-        } catch (FileNotFoundException ex) {
+        } 
+        catch (FileNotFoundException ex) {
             Logger.getLogger(Frm1.class.getName()).log(Level.SEVERE, null, ex);
         }
         
@@ -200,6 +201,7 @@ public class Frm1 extends javax.swing.JFrame {
             // Crear una instancia del analizador léxico (Lexer), pasándole el contenido del archivo
             Lexer lexer = new Lexer(reader);
             String result = ""; // Variable que acumulará los resultados del análisis léxico
+            
             while (true) {
                 // Obtener el siguiente token generado por el analizador léxico
                 Tokens tokens = lexer.yylex();

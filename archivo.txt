@@ -1,3 +1,2 @@
-switch
-do
-char
+Lexer lexer = new Lexer(reader);
+            String result = ""; 

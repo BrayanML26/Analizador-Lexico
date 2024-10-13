@@ -22,13 +22,13 @@ public class AnalizadorLexico {
         
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
-        public void run() {
-            // Crea una nueva instancia del JFrame (Frm1) que contiene la interfaz de usuario.
-            Frm1 frame = new Frm1();
-            frame.setTitle("THE BEST COMPILER"); // Establece el título de la ventana.
-            frame.setVisible(true);
-        }
-    });
+            public void run() {
+                // Crea una nueva instancia del JFrame (Frm1) que contiene la interfaz de usuario.
+                Frm1 frame = new Frm1();
+                frame.setTitle("THE BEST COMPILER"); // Establece el título de la ventana.
+                frame.setVisible(true);
+            }
+        });
     }
     
     // Este método genera el analizador léxico utilizando la ruta del archivo especificada.
